@@ -13,7 +13,3 @@ arquivosClientes=file:files\\clientes*
 
 Linux:
 arquivosClientes=file:files/clientes.*
-
-## Escolhi salvar no Windows como variável de ambiente o user e senha do mysql.
-Então para funcionar o seu projeto é necessário ou criar essas variáveis de ambiente no seu sistema operacional MYSQL_USER e MYSQL_PASS ou alterar dentro do src/main/resources/application.properties 
-o usuário e senha de conexão do banco.
